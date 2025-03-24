@@ -84,7 +84,6 @@ hr{
     padding: 0.5rem 1.5rem;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     display: flex;
-    
     align-items: center;
     gap: 0.5rem;
     backdrop-filter: blur(4px);
@@ -157,7 +156,7 @@ hr{
     object-fit: contain;
     transition: transform 0.1s;
 }
-.works li:hover {
+.works li :hover {
     transform: scale(1.5);
 }
 .contactContainer{
